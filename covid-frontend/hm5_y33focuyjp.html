@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/hm5_y33focuyjp.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <p id="logo">P</p>
+        </div>
+        <div class="text">
+            <p>PaSE Covid-19 Tracker App</p>
+        </div>
+    </div>
+    <div id="dashboard">
+        <div id="cases">
+            <p>Total Confirmed Cases <i class="fa fa-caret-up"></i></p>
+            <span id="total-cases"></span>
+        </div>
+        <div id="cases">
+            <p> Total  Death Cases<i class="fa fa-caret-up"></i></p>
+            <span id="total-recovered"></span>
+        </div>
+        <div id="cases">
+            <p>Total Recovered Cases <i class=" fa fa-caret-down fa-1.5x"></i></p>
+            <span id="total-active"></span>
+        </div>
+        <div id="cases">
+            <p>Total Active Cases<i class="fa fa-caret-up"></i></p>
+            <span id="total-deaths"></span>
+        </div>
+    </div>
+        <div id="data">
+            <table>
+                <thead id="heading">
+                    <tr>
+                        <th>County Region</th>
+                        <th>Confirmed</th>
+                        <th>Deaths</th>
+                        <th>Recovered</th>
+                        <th>Active</th>
+                    </tr>
+                </thead>
+                <tbody id="td"></tbody>
+                   <div id="loading"></div>
+                </tbody>
+            </table>
+        
+            <div id="box" >
+                <div class="health">
+                    <p>Health Tips</p>
+                    <img src="./img/healthtip.jpg" alt="tips on covid" width="195" height="100px">
+                </div>
+                <div class="health">
+                    <p>News &amp; Updates</p>
+                    <img src="./img/update.jpg" alt="scientist in a lab" width="195px" height="100px">
+                </div>
+                <div class="health">
+                    <p>Subscribe to our news letter</p>
+                    <img src="./img/coronavirus e-newsletter.jpg" alt="e-newsletter on covid" width="195" height="100px">
+                </div>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+</body>
+</html>
